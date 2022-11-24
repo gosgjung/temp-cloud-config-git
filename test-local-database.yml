@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:33306/collector
+    username: collector
+    password: 1111
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
